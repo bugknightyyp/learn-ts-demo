@@ -1,0 +1,31 @@
+{
+  "name": "learn-ts-demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugknightyyp/learn-ts-demo.git"
+  },
+  "keywords": [
+    "learning",
+    "typescript"
+  ],
+  "author": "bugknightyyp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugknightyyp/learn-ts-demo/issues"
+  },
+  "homepage": "https://github.com/bugknightyyp/learn-ts-demo#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

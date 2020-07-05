@@ -1,0 +1,16 @@
+{
+  "name": "esmoduleinterop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc --outDir dist"
+  },
+  "author": "",
+  "license": "ISC"
+}
