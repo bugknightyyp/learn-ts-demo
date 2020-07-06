@@ -4,5 +4,5 @@ class ZipCodeValidator {
     return s.length === 5 && numberRegexp.test(s);
   }
 }
-// export default ZipCodeValidator;
-export = ZipCodeValidator;
+export default ZipCodeValidator;
+// export = ZipCodeValidator;

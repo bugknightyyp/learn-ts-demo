@@ -1,15 +1,15 @@
 // import zip = require("./ZipCodeValidator");
 // import * as zip from "./ZipCodeValidator";
-import moment from 'moment'
-import react from 'react'
-import  zip  from './ZipCodeValidator'
+// import  moment from 'moment'
+import * as zip  from './ZipCodeValidator'
 
-let date: moment.Moment = moment()
+//let date: moment.Moment = moment()
+_.xor
 // Some samples to try
 let strings = ["Hello", "98052", "101"];
 
 // Validators to use
-let validator = new zip();
+let validator = new zip.default();
 
 // Show whether each string passed each validator
 strings.forEach(s => {

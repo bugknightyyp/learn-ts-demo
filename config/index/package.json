@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@types/lodash": "^4.14.157",
+    "@types/vue": "^2.0.0",
     "moment": "^2.27.0",
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "vue": "^2.6.11"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "tsc --outDir dist"
+    "build": "tsc --outDir dist"
   },
   "author": "",
   "license": "ISC"
